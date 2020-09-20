@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+header, footer{
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding: 0.5em;
+}
+
+body{
+    margin: 0;
+    background-color: #f5f3f0;
+}  
+
+nav{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #e6e3de;
+}
+
+nav a{
+    padding: 20px;
+    color: black;
+    text-decoration:none;
+}
+
+nav a.active, a:hover{
+    color: grey;
+}
+
+.page_title{
+    text-align: center;
+    color: white;
+    background-size: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+#title_welcome{
+    background-image: url(images/Title.jpg);
+    padding: 75px;
+    background-position: 50% 30%;
+}
+
+#title_2015{
+    background-image: url(images/2015.jpg);
+    padding: 120px;
+    background-position: center;
+}
+
+#title_2018{
+    background-image: url(images/2018.jpg);
+    padding: 120px;
+    background-position: center;
+}
+
+#title_2019{
+    background-image: url(images/2019.jpg);
+    padding: 120px;
+    background-position: 50% 85%;
+}
+
+#intro_text{
+    float: left;
+    width: 40%;
+    background-color: #e6e3de;
+    border: 1px solid grey;
+    padding: 10px 30px 20px 30px;
+}
+
+.city_text{
+    float: left;
+}
+
+table, .city img{
+    float: right;
+}
+
+.city img{
+    max-width: 40%;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e3de;
+}
+
+#text_and_table{
+    padding-left: 15%;
+    padding-right: 20%;
+    margin: 100px 0px;
+}
+
+.city{
+    padding: 40px 5%;
+    margin: 100px;
+    background-color: #e6e3de;
+    border: 1px solid grey;
+}
+
+/* Clearfix (clear floats) */
+#text_and_table::after, .city::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav, #text_and_table, footer, .city{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+footer{
+    font-size: 14px;
+    background-color: #e6e3de;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
